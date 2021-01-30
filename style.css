@@ -1,0 +1,44 @@
+.opo {
+    display: flex;
+    background:brown;
+    width: 2%;
+    height: 200px;
+    max-width: 100%;
+    justify-content: center;
+    position: absolute;
+    z-index: 0;
+    margin-top: 400px;
+  
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ball {
+    border-radius: 40%;
+    background-color: black;
+    position: relative;
+    margin-top: 195px;
+    width: 3%;
+    height: 30px;
+    -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    z-index: 2;
+  }
+  
+  .flame {
+    border-radius: 0% 100% 32% 68% / 59% 61% 39% 41%;
+    background-color: #a40606;
+    background: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+    position: absolute;
+    width: 10%;
+    height: 150px;
+    transform: rotate(400deg);
+    top: 90px;
+    left: 420px;
+    z-index: 1;
+  }
+  
